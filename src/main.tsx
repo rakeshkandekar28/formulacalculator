@@ -7,10 +7,9 @@ import './global.css';
 
 const history = createBrowserHistory();
 
-
 ReactDOM.render(
-    <Router history={history}>
-      <App />
-    </Router>,
-  document.getElementById('root')
+	<Router history={history}>
+		<App />
+	</Router>,
+	document.getElementById('root')
 );
