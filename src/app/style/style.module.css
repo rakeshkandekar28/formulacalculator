@@ -1,0 +1,31 @@
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 600px; /* Set a max width for the container */
+    margin: auto; /* Center the container */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+.formula-input, .variable-number-input {
+    width: 100%; /* Make inputs full width */
+    padding: 10px; /* Add padding */
+    margin: 10px 0; /* Add margin */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 4px; /* Add rounded corners */
+}
+
+.variable-input {
+    display: flex;
+    align-items: center; /* Align label and input */
+    width: 100%; /* Make variable input full width */
+}
+
+.pageHeader{
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 25px;
+    display: inline-block;
+}
